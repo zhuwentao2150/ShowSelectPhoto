@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bg_radius"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_bitmap_system"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:text="@string/popup_system_photo"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#C2C2C2"
+            />
+
+        <TextView
+            android:id="@+id/tv_bitmap_shoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:text="@string/popup_shoot_photo"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_bitmap_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_radius"
+        android:text="@string/tv_pop_choose_photo_cancel"/>
+
+</LinearLayout>

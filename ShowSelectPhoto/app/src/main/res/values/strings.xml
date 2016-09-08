@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">zwt_ShowSelectPhoto</string>
+
+
+    <!-- 获取图片途径选择popup窗口 -->
+    <string name="popup_system_photo">本地图片</string>
+    <string name="popup_shoot_photo">相机拍照</string>
+    <string name="tv_pop_choose_photo_cancel">取消</string>
+</resources>

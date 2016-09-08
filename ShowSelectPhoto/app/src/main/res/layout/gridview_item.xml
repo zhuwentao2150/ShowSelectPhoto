@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--图片-->
+        <ImageView
+            android:id="@+id/iv_photo_item"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="5dp"
+            android:scaleType="centerCrop"/>
+
+        <!--清除按钮-->
+        <ImageView
+            android:id="@+id/iv_photo_item_clear"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:visibility="gone"
+            android:layout_gravity="right|top"
+            android:background="@drawable/ic_clear"/>
+
+    </FrameLayout>
+
+</LinearLayout>

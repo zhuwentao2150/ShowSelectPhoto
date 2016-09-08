@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- popup选择获取图片对的途径 -->
+    <style name="popup_select_way">
+        <item name="android:windowEnterAnimation">@anim/popup_enter_up</item>
+        <item name="android:windowExitAnimation">@anim/popup_out_down</item>
+    </style>
+
+</resources>
